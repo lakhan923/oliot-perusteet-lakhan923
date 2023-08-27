@@ -8,7 +8,8 @@ namespace _03_Ovi
         {
             Ovi alexander = new Ovi(); 
             alexander.Koputa(); 
-            alexander.Koputa();    
+            alexander.Koputa();   
+             
         }
     }
 }
