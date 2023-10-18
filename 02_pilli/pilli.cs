@@ -9,12 +9,12 @@ namespace _02_pilli
     {
         private string aani;
 
-    public void Soi()
-       {
+        public void Soi()
+        {
             System.Console.Write(aani);
-       }
+        }
 
-    public Pilli(string pillinAani)
+        public Pilli(string pillinAani)
         {
             this.aani = pillinAani;
         }
