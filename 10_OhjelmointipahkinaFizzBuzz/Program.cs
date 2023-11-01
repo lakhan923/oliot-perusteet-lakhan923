@@ -10,7 +10,7 @@ namespace RemainderElaimet
     {
         static void Main(string[] args)
         {
-            
+          
             Vuoro();
             Jakojaannos();
 

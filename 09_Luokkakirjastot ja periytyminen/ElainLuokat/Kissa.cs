@@ -8,10 +8,10 @@ namespace ElainLuokat
 {
     public class Kissa : Nisakkaat //inherited the constructors from Elain for the Kissa class
     {
-        protected string name{get ; set; }
-
-        protected int age{get; set; }
+        public string name { get; set; }
+        public int age { get; set; }
         public string kehrays; // object variable
+        public string FavoriteToy { get; set; }
 
         public Kissa() : base()
         {
@@ -33,7 +33,7 @@ namespace ElainLuokat
 
         public override void BodyCovering()
         {
-            System.Console.WriteLine(name + " " + "is" + " " + age + " "+ "years old and her body is covered with \"Hairs or Fur.\"");
+            System.Console.WriteLine(name + " " + "is" + " " + age + " " + "years old and her body is covered with \"Hairs or Fur.\"");
         }
     }
 }

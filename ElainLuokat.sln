@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ika", "09_Luokkakirjastot j
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Periytyminen", "09_Luokkakirjastot ja periytyminen\Periytyminen\Periytyminen.csproj", "{6C6EC9CB-22B6-4462-AB92-F2F39D6732F6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_OhjelmointipahkinaFizzBuzz", "10_OhjelmointipahkinaFizzBuzz", "{EB69EE9E-7475-4983-8EE9-7484994A43D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hevonen", "10_OhjelmointipahkinaFizzBuzz\Hevonen\Hevonen.csproj", "{9B60DD57-07EA-40DF-AD40-20BA98D44317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,10 +36,15 @@ Global
 		{6C6EC9CB-22B6-4462-AB92-F2F39D6732F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C6EC9CB-22B6-4462-AB92-F2F39D6732F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C6EC9CB-22B6-4462-AB92-F2F39D6732F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B60DD57-07EA-40DF-AD40-20BA98D44317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B60DD57-07EA-40DF-AD40-20BA98D44317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B60DD57-07EA-40DF-AD40-20BA98D44317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B60DD57-07EA-40DF-AD40-20BA98D44317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9AE08225-9C83-4B79-B7DB-968E9AFDBD70} = {E92848D4-2E09-427C-880B-F39765AF48D3}
 		{0B3D704C-4AB3-4FF2-A23C-789416950E7D} = {E92848D4-2E09-427C-880B-F39765AF48D3}
 		{6C6EC9CB-22B6-4462-AB92-F2F39D6732F6} = {E92848D4-2E09-427C-880B-F39765AF48D3}
+		{9B60DD57-07EA-40DF-AD40-20BA98D44317} = {EB69EE9E-7475-4983-8EE9-7484994A43D0}
 	EndGlobalSection
 EndGlobal

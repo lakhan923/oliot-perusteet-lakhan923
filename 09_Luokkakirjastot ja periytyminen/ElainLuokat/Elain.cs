@@ -1,12 +1,14 @@
 ﻿namespace ElainLuokat
 {
-    public abstract class Elain // Abstract class is a restricted class that cannot be used to create objects 
+    public class Elain // Abstract class is a restricted class that cannot be used to create objects 
     // (to access it, it must be inherited from another class)
     //it provide a common definition of a base class that multiple derived classes can share
     {
         private int ika; // privaatti attribuutti
         private string nimi;
         public bool _onLihanSyoja; // private object variable
+        public string Nimi { get; set; }
+        public int Ika { get; set; }
 
         //Getting and setting age
         public int GetIka()
@@ -36,8 +38,8 @@
 
         public Elain() // <-- konstruktori
         {
-            nimi = "Pekka";
-            ika = 5;
+            this.nimi = "Pekka";
+            this.ika = 5;
             // Console.WriteLine("In Elain default contructor");//example
 
         }

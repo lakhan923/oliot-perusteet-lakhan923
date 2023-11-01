@@ -8,14 +8,15 @@ namespace ElainLuokat
 {
     public class Linnut : Elain
     {
+        public string FavoritePhrase { get; set; }
         public Linnut() : base()
         {
-           
+
         }
 
         public Linnut(int ika, string nimi) : base(ika, nimi)
         {
-         
+
         }
 
         public virtual void Eat()
@@ -23,7 +24,7 @@ namespace ElainLuokat
             System.Console.WriteLine("finch");
         }
 
-        
+
 
     }
 }

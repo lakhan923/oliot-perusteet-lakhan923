@@ -7,11 +7,12 @@ namespace ElainLuokat
 {
     public class Koira : Nisakkaat //inherited the constructors from Elain for the Koira class
     {
-        protected string name{get ; set; }
+        protected string name { get; set; }
 
-        protected int age{get; set; }
+        protected int age { get; set; }
 
         public string haukku; // object variable (Attribute)
+        public bool HumansBestFriend { get; set; }
 
         public Koira() : base()
         {
@@ -34,7 +35,7 @@ namespace ElainLuokat
 
         public override void OffSpring()
         {
-            System.Console.WriteLine(name + " " + "is" + " " + age + " "+ "years old and gives \"Live Birth.\"");
+            System.Console.WriteLine(name + " " + "is" + " " + age + " " + "years old and gives \"Live Birth.\"");
         }
 
 
